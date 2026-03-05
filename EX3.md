@@ -14,7 +14,7 @@ In this exercise, you will complete the following tasks:
 
 - Task 2: Brainstorm Rollout Strategies Using Idea Coach
 
-## Task 1: Access Writing Coach
+## Task 1: Generate Executive Communications Using Writing Coach
 
 In this task, you will add the Writing Coach agent and use it to generate executive-level content for Project Nexus, including recommendation reports, executive emails, mitigation plans, and leadership-ready briefing documents.
 

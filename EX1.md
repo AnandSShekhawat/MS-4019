@@ -38,11 +38,11 @@ In this task, you'll open Microsoft 365 Copilot, upload the Project Nexus survey
 
 3. If prompted, sign in using the following credentials:
 
-    - **Username:** Enter <inject key="AzureAdUserEmail"></inject> **(1)**, then click on **Next (2)**.
+    - **Username:** Enter **<inject key="AzureAdUserEmail"></inject>** **(1)**, then click on **Next (2)**.
 
         ![](./media/ex1-p2t1p2.png)
 
-    - **Password:** Enter <inject key="AzureAdUserPassword"></inject> **(1)** and then click on **Sign in (2)**.
+    - **Password:** Enter **<inject key="AzureAdUserPassword"></inject>** **(1)** and then click on **Sign in (2)**.
 
         ![](./media/ex1-p2t1p3.png)
 

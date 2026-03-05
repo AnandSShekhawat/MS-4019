@@ -72,7 +72,6 @@ In this task, you'll use the Microsoft 365 Copilot Researcher agent to gather an
 
     ![](./media/ex2-p3t1p9.png)
 
-
 1. The Researcher agent will:
 
     * Search Outlook (Inbox and Sent Items)
@@ -154,7 +153,7 @@ In this task, you'll use the Microsoft 365 Copilot Researcher agent to gather an
 
         - `Summarize contents of shared documents related to Project Nexus.`
 
-# Summary
+## Summary
 
 In this exercise, you've uploaded the **Project Nexus** project files to OneDrive and used the Microsoft 365 Copilot **Researcher** agent to analyze communications and documents related to the project. You explored how the agent consolidates information from Outlook, Teams, meetings, and shared files to generate summaries, extract action items, and provide insights that support project decision-making.
 
