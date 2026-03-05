@@ -10,7 +10,7 @@ You will begin by using the **Analyst agent** to analyze survey data and identif
 
 By the end of this lab, you will understand how multiple Copilot agents can work together to help analyze information, support decision-making, and create intelligent knowledge assistants within Microsoft 365.
 
-## Objective
+## Objectives
 
 By the end of this lab, you will be able to:
 
@@ -46,7 +46,7 @@ In this lab, the workflow demonstrates how **Microsoft 365 Copilot agents** can 
 
 ## Architecture Diagram
 
-  ![](./media/arch10.jpg)
+  ![](./media/archdiagram.png)
 
 ## Explanation of Components
 
