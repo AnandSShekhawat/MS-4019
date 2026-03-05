@@ -4,8 +4,6 @@
 
 ## Overview
 
-## Lab Overview
-
 In this lab, you will explore how **Microsoft 365 Copilot agents** can support different stages of a project by analyzing data, gathering insights, generating executive communications, and creating intelligent assistants powered by organizational content. Using a fictional initiative called **Project Nexus**, you will work through a series of exercises that demonstrate how various Copilot agents can help transform raw information into meaningful insights and actionable recommendations.
 
 You will begin by using the **Analyst agent** to analyze survey data and identify trends. Next, you will use the **Researcher agent** to synthesize project communications and documents stored in Microsoft 365. You will then use agents such as **Writing Coach** and **Idea Coach** to generate executive communications and brainstorm rollout strategies. Finally, you will create your own **custom Copilot agents**, including one built with **Agent Builder** and another connected to **SharePoint** content.
@@ -87,19 +85,23 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
 
 To get the lab environment details, you can select the **Environment** tab. Additionally, the credentials will also be emailed to your registered email address.
 
-   ![08](./media/envtab.png)
+![08](./media/envtab.png)
 
 ## Utilizing the Split Window Feature
 
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
 
-   ![08](./media/splittab.png)
+![08](./media/splittab.png)
 
-   >**Note:** You will see the **DeploymentID** value on the **Environment** tab, use it wherever you see SUFFIX or DeploymentID in lab steps.
+## Lab Progress
+
+You can use the **Progress** tab to track your progress while working on the lab. A score will be provided after successful validation.
+
+![](./media/progtab.png)
 
 ## Managing Your Virtual Machine
  
-Feel free to **Start, Restart, or Stop** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+Feel free to **Start, Restart, or Stop** **(2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
 
    ![08](./media/restab.png)
 
@@ -109,37 +111,19 @@ To adjust the zoom level for the environment page, click the A↕ : 100% icon lo
 
    ![08](./media/zoomintab.png)
 
-## Let's Get Started with Power BI Portal
+## Lab Duration Extension
 
-1. In the Lab VM, click on the **Microsoft Edge** browser, which is available on the desktop.
+1. To extend the duration of the lab, kindly click the **Hourglass** icon in the top right corner of the lab environment. 
 
-   ![09](./media/GS6.png)
+    ![Manage Your Virtual Machine](./media/extendtime1.png)
 
-1. Copy the **Power BI link** below and open this link in a new tab on the Microsoft Edge Browser.
+    >**Note:** You will get the **Hourglass** icon when 10 minutes are remaining in the lab.
 
-   ```
-   https://powerbi.com
-   ```
-   
-2. On the **Enter your email, we'll check if you need to create a new account** window, you will see the login screen, in that enter the following email/username, and click on **Submit (2)**.
+2. Click **OK** to extend your lab duration.
  
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject> **(1)**
+   ![Manage Your Virtual Machine](./media/extendtime2.png)
 
-     ![04](./media/upfab-ric-gs-g1.png)
-     
-3. Now enter the following **Temporary Access Pass (1)** and click on **Sign in (2)**.
- 
-   - **Temporary Access Pass** <inject key="AzureAdUserPassword"></inject> 
-
-      ![05](./media/upfab-ric-gs-g2.png)
-     
-1. If you see a pop-up **Stay Signed in?**, click **No**.
-
-   ![05](./media/upfab-ric-gs-g3.png)
-
-1. You will be navigated to the Power BI Home page.
-
-   ![05](./media/fab-ric-gs-g4.png)
+3. If you have not extended the duration prior to when the lab is about to end, a pop-up will appear, giving you the option to extend. Click **OK** to proceed. 
 
 ## Support Contact
 
@@ -152,6 +136,6 @@ Learner Support Contacts:
 
 Now, click on **Next** from the lower right corner to move on to the next page.
    
-   ![05](./media/nextpage(1).png)
+   ![05](./media/nextpage.png)
 
 ## Happy Learning!!
