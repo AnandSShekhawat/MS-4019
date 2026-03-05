@@ -1,6 +1,6 @@
 # Exercise 5: Create a SharePoint-Connected Copilot Agent
 
-### Estimated Duration: 25 Minutes
+### Estimated Duration: 30 Minutes
 
 ## Lab Overview
 
@@ -159,7 +159,7 @@ In this task, you will test the agent by submitting prompts related to the Proje
 
 1. This verifies that the responses are generated using information from the SharePoint documents you uploaded.
 
-1. If you want to make changes to the agent, select the **ellipsis icon (1)** next to the agent name in the left pane, and then select **Edit (2)**. This opens the **Edit agent** window, where you can modify the agent’s settings as needed.
+1. If you want to make changes to the agent, select the **ellipsis (...) (1)** next to the agent name in the left pane, and then select **Edit (2)**. This opens the **Edit agent** window, where you can modify the agent’s settings as needed.
 
     ![](./media/ex5-p6t1p24.png)
 

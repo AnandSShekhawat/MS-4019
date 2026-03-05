@@ -1,6 +1,6 @@
 # Exercise 2: Synthesizing Project Nexus Communications Using the Researcher Agent
 
-### Estimated Duration: 30 Minutes
+### Estimated Duration: 20 Minutes
 
 ## Lab Overview
 

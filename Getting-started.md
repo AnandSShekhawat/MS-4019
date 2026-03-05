@@ -1,64 +1,83 @@
-# Cloud scale analytics with Microsoft Fabric
+# MS-4019 : Transform your everyday business processes with Agents
 
-### Overall Estimated Duration: 8 Hours
+### Overall Estimated Duration: 2 Hours
 
 ## Overview
 
-This lab introduces you to creating a workspace in Microsoft Fabric, a collaborative environment for organizing and managing projects, data, and resources. You will learn how to set up a workspace, create data pipelines for ETL/ELT processes, and use Apache Spark for data processing. Additionally, you will create a notebook to train a machine-learning model to predict customer churn using Scikit-Learn and MLflow. You will also explore dataflows in Microsoft Fabric to connect to various data sources, perform transformations, and define datasets for Power BI reports.
+## Lab Overview
+
+In this lab, you will explore how **Microsoft 365 Copilot agents** can support different stages of a project by analyzing data, gathering insights, generating executive communications, and creating intelligent assistants powered by organizational content. Using a fictional initiative called **Project Nexus**, you will work through a series of exercises that demonstrate how various Copilot agents can help transform raw information into meaningful insights and actionable recommendations.
+
+You will begin by using the **Analyst agent** to analyze survey data and identify trends. Next, you will use the **Researcher agent** to synthesize project communications and documents stored in Microsoft 365. You will then use agents such as **Writing Coach** and **Idea Coach** to generate executive communications and brainstorm rollout strategies. Finally, you will create your own **custom Copilot agents**, including one built with **Agent Builder** and another connected to **SharePoint** content.
+
+By the end of this lab, you will understand how multiple Copilot agents can work together to help analyze information, support decision-making, and create intelligent knowledge assistants within Microsoft 365.
 
 ## Objective
 
 By the end of this lab, you will be able to:
 
-- **Create a Fabric workspace:** Learn to create and configure a collaborative workspace in Microsoft Fabric to efficiently manage projects, data, and resources. As part of this exercise, you will successfully assign the Fabric Administrator role, sign up for a Microsoft Fabric trial, and create a workspace. This will enable you to manage your environment and start exploring Fabric's capabilities effectively.
-- **Ingest data with a pipeline in Microsoft Fabric:** Implement and manage data ingestion in Microsoft Fabric using ETL/ELT pipelines and Apache Spark for scalable analytics. By completing the tasks in this exercise, users will enable Copilot inside a Codespace, explore shortcuts, create a pipeline and notebook, use SQL to query tables, create a visual query, and generate a report. This exercise builds proficiency in essential Microsoft tools and features.
-- **Analyze data in a data warehouse:** Understand how Microsoft Fabric's data warehouse enables full SQL functionality, including insert, update, and delete operations, for large-scale analytics. By completing this exercise, you will have created a data warehouse, populated it with data, defined a model, queried tables, created a view, and visualized your data.
-- **Get started with Real-Time Analytics in Microsoft Fabric:** Use Microsoft Fabric’s Kusto Query Language (KQL) for efficient storage and querying of time-series data, including real-time logs and IoT information. Upon completing this exercise, you will have created a KQL database, queried a sales table using KQL, generated a Power BI report from a KQL Queryset, and utilized delta tables for streaming data. This will enhance your skills in data querying, visualization, and real-time data management within Microsoft Fabric.
-- **Use notebooks to train a model in Microsoft Fabric:** Discover how to use Microsoft Fabric’s Kusto Query Language (KQL) for efficient storage and querying of time-series data, including real-time logs and IoT information. In this exercise, you'll build a lakehouse, upload files, create a notebook, train a machine learning model, use MLflow to track experiments, and save your work, concluding with ending the Spark session.
-- **Data Engineering Ingest Data in Fabric with Fabric Copilot:** Streamline the process of ingesting diverse data sources into Fabric using Fabric Copilot for efficient data management. In this exercise, you completed tasks to connect to data sources, configure ingestion settings, ingest data into Fabric, monitor the ingestion process, validate the ingested data, and document the entire process.
-- **Analyze Data in a Warehouse with Fabric Copilot:** Leverage Fabric Copilot to enhance data analysis capabilities in a warehouse, enabling insightful decision-making through advanced analytics. In this exercise, you completed tasks to connect to the data warehouse, explore data sources, run data queries, visualize data insights, generate reports, and collaborate on findings.
-- **Analyze data with Apache Spark:** Use Microsoft Fabric to train and track a customer churn prediction model with Scikit-Learn and MLflow. After completing this exercise, you will have set up a lakehouse, uploaded and explored data, used Spark for transformation and visualization, and effectively managed your notebook and Spark session. This will demonstrate your ability to integrate and analyze data through multiple stages using advanced tools and techniques.
-- **Create a Dataflow (Gen2) in Microsoft Fabric:** Master Apache Spark for flexible, distributed data processing and analysis across platforms like Azure HDInsight and Databricks. Successfully created a Dataflow (Gen2) to ingest data, configured its destination, and integrated it into a pipeline. This streamlined the data ingestion and processing workflow within your environment.
+- **Analyze survey data using the Analyst agent:** Learn how to use the Microsoft 365 Copilot **Analyst** agent to interpret structured datasets, identify trends, calculate key metrics, and generate visualizations that transform raw survey responses into actionable insights.
+
+- **Synthesize project communications using the Researcher agent:** Use the **Researcher** agent to gather and consolidate information from Microsoft 365 sources such as emails, meetings, Teams conversations, and OneDrive documents to generate summaries, extract action items, and uncover project insights.
+
+- **Generate executive communications with Copilot agents:** Leverage the **Writing Coach** agent to create structured executive reports, recommendation summaries, emails, and briefing documents that communicate project outcomes and business value to leadership.
+
+- **Brainstorm strategic ideas using the Idea Coach agent:** Use the **Idea Coach** agent to explore creative strategies for improving adoption, addressing project challenges, and planning enterprise rollout initiatives for Project Nexus.
+
+- **Build a custom Copilot agent using Agent Builder:** Design and configure a custom Microsoft 365 Copilot agent grounded in project documentation that can analyze organizational data and generate decision-focused insights for executive stakeholders.
+
+- **Create a SharePoint-connected Copilot agent:** Learn how to connect a Copilot agent to a SharePoint site so it can reference site content and documents to answer questions, summarize information, and act as an intelligent knowledge assistant.
+
+- **Test and validate Copilot agent responses:** Verify that Copilot agents generate responses based on the provided project data and documents, ensuring that insights and recommendations are relevant, contextual, and decision-focused.
   
 ## Pre-requisites
 
-- **Fundamental Knowledge of Data Engineering:** Understanding ETL/ELT and data pipelines
-- **Programming Skills:** Familiarity with Python, SQL, or similar languages
-- **Basic Understanding of Data Visualization:** Experience with tools like Power BI
+- **Basic familiarity with Microsoft 365:** Understanding how to navigate Microsoft 365 apps such as OneDrive, SharePoint, Outlook, and Teams.
+
+- **Access to Microsoft 365 Copilot:** A Microsoft 365 tenant with Copilot enabled to interact with Copilot agents such as Analyst, Researcher, Writing Coach, and Idea Coach.
+
+- **Basic understanding of data analysis concepts:** Familiarity with interpreting survey results, identifying trends, and reviewing insights generated from structured data.
+
+- **Basic knowledge of SharePoint and document libraries:** Understanding how to upload files, navigate SharePoint sites, and manage documents within a site.
+
+- **General awareness of AI-assisted tools:** Familiarity with using AI assistants to generate summaries, insights, and recommendations using natural language prompts.
 
 ## Architecture
 
-In Microsoft Fabric, the workflow begins with creating a Fabric workspace to manage projects, data, and resources collaboratively. Next, ingest data with a pipeline using ETL/ELT processes and Apache Spark for scalable data integration. Once data is ingested, it is stored in the data warehouse, which supports full SQL functionality for extensive analytics. For real-time data processing, get started with Real-Time Analytics using Kusto Query Language (KQL) to handle time-series data like real-time logs and IoT information. Use notebooks to train machine learning models, such as a customer churn prediction model, using Scikit-Learn and MLflow. Finally, create a Dataflow (Gen2) to leverage Apache Spark for distributed data processing and analysis across platforms like Azure HDInsight and Databricks.
+In this lab, the workflow demonstrates how **Microsoft 365 Copilot agents** can analyze data, synthesize information, and generate insights using organizational content from Microsoft 365. The process begins by using the **Analyst agent** to analyze a Project Nexus survey dataset and identify key trends and visual insights. Next, the **Researcher agent** gathers and synthesizes information from Microsoft 365 sources such as OneDrive documents, emails, meetings, and Teams conversations. You will then use the **Writing Coach** and **Idea Coach** agents to generate executive communications and brainstorm strategies for the Project Nexus rollout. Finally, you will create intelligent assistants by building a **custom Copilot agent using Agent Builder** and a **SharePoint-connected Copilot agent** that uses SharePoint documents as its knowledge source to answer questions and provide insights.
 
 ## Architecture Diagram
 
-  ![](./Images/arch10.jpg)
+  ![](./media/arch10.jpg)
 
 ## Explanation of Components
 
-- **Data Pipeline:** Orchestrates and automates data movement and transformation workflows using a visual interface. Ideal for building ETL (Extract, Transform, Load) processes across multiple data sources.
-- **Dataflow Gen 2:** A self-service data preparation tool that allows users to create reusable data transformation pipelines, optimized for performance and scalability within the Microsoft Fabric ecosystem.
-- **Lakehouse:** Combines the benefits of data lakes and data warehouses by supporting open data formats and structured querying, making it suitable for both analytics and machine learning workloads.
-- **Notebook** (under Lakehouse and Model): Interactive development environment that supports languages like PySpark, SQL, and others, enabling data exploration, transformation, and visualization.
-- **Spark Job Definition:** Defines distributed data processing tasks using Apache Spark, allowing for scalable data transformations and advanced analytics over large datasets.
-- **Model:** Semantic layer that organizes and defines business logic, relationships, and KPIs for your data, used for consistent analysis and reporting across tools.
-- **Experiment:** Enables tracking and managing of machine learning experiments, including metrics and model versions, facilitating reproducibility and performance comparison.
-- **Warehouse:** Provides scalable, high-performance storage and full SQL functionality for large-scale analytics. It supports complex queries, including insert, update, and delete operations, to efficiently handle extensive data sets.
-- **KQL Database:** Optimized for real-time telemetry and log data, it uses the Kusto Query Language (KQL) for fast, scalable analysis of time-series and event data.
-- **KQL Queryset:** A collection of saved KQL queries that users can organize and reuse, enabling collaborative analytics and faster insights on streaming or log data.
-- **Eventstream:** Captures, transforms, and routes real-time events from multiple sources for real-time processing, analytics, or storage in various destinations.
-- **Dataset:** A curated set of data ready for reporting and visualization, often used in Power BI to build interactive dashboards and reports.
-- **Report:** Visual representation of data using various charts and graphs, enabling users to interact with and analyze their data.
-- **Dashboard:** A single-pane view that aggregates visuals and reports from multiple datasets, offering quick insights and real-time monitoring.
+- **Analyst Agent:** An AI-powered Copilot agent designed to analyze structured datasets. It can identify trends, calculate metrics, generate visualizations, and provide insights based on spreadsheet data.
+
+- **Researcher Agent:** A Copilot agent that gathers and synthesizes information from Microsoft 365 sources such as Outlook emails, Teams chats, meetings, and OneDrive documents to generate summaries and insights.
+
+- **Writing Coach Agent:** A Copilot agent that helps create polished written content, including executive reports, emails, summaries, and briefing documents tailored for leadership communication.
+
+- **Idea Coach Agent:** A Copilot agent that assists with brainstorming and idea generation. It helps users develop strategies, explore solutions, and plan initiatives such as enterprise rollouts or adoption improvements.
+
+- **Agent Builder:** A tool within Microsoft 365 Copilot that enables users to create custom AI agents by defining instructions, knowledge sources, and suggested prompts tailored to specific business scenarios.
+
+- **SharePoint Communication Site:** A SharePoint site designed for sharing information across an organization. In this lab, it serves as a centralized location for storing Project Nexus documents used by Copilot agents.
+
+- **SharePoint Document Library:** A storage location within a SharePoint site used to manage files and documents. The Copilot agent uses the files stored in the library as its knowledge source.
+
+- **Custom Copilot Agent:** A user-created AI assistant configured with specific instructions, prompts, and knowledge sources to provide contextual insights and recommendations based on organizational data.
+
+- **SharePoint-Connected Copilot Agent:** A Copilot agent that uses SharePoint site content and documents as its knowledge source, enabling users to ask questions and retrieve insights directly from stored organizational content.
 
 # Getting Started with the Lab
 
-Welcome to your Cloud scale analytics with Microsoft Fabric workshop! We've prepared a seamless environment for you to explore and learn about Fabric services. Let's begin by making the most of this experience:
+Welcome to your MS-4019 : Transform your everyday business processes with Agents workshop! We've prepared a seamless environment for you to explore and learn Azure Services. Let's begin by making the most of this experience:
 
 ## Accessing Your Lab Environment
 Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
 
-![07](./Images/GS1.png)
+![07](./media/guidetab.png)
 
 ## Virtual Machine & Lab Guide
 
@@ -68,13 +87,13 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
 
 To get the lab environment details, you can select the **Environment** tab. Additionally, the credentials will also be emailed to your registered email address.
 
-   ![08](./Images/GS2.png)
+   ![08](./media/envtab.png)
 
 ## Utilizing the Split Window Feature
 
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
 
-   ![08](./Images/GS3.png)
+   ![08](./media/splittab.png)
 
    >**Note:** You will see the **DeploymentID** value on the **Environment** tab, use it wherever you see SUFFIX or DeploymentID in lab steps.
 
@@ -82,19 +101,19 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
 Feel free to **Start, Restart, or Stop** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
 
-   ![08](./Images/GS5.png)
+   ![08](./media/restab.png)
 
 ## Lab Guide Zoom In/Zoom Out Options
 
 To adjust the zoom level for the environment page, click the A↕ : 100% icon located next to the timer in the lab environment.
 
-   ![08](./Images/GS4.png)
+   ![08](./media/zoomintab.png)
 
 ## Let's Get Started with Power BI Portal
 
 1. In the Lab VM, click on the **Microsoft Edge** browser, which is available on the desktop.
 
-   ![09](./Images/GS6.png)
+   ![09](./media/GS6.png)
 
 1. Copy the **Power BI link** below and open this link in a new tab on the Microsoft Edge Browser.
 
@@ -106,21 +125,21 @@ To adjust the zoom level for the environment page, click the A↕ : 100% icon lo
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject> **(1)**
 
-     ![04](./Images/upfab-ric-gs-g1.png)
+     ![04](./media/upfab-ric-gs-g1.png)
      
 3. Now enter the following **Temporary Access Pass (1)** and click on **Sign in (2)**.
  
    - **Temporary Access Pass** <inject key="AzureAdUserPassword"></inject> 
 
-      ![05](./Images/upfab-ric-gs-g2.png)
+      ![05](./media/upfab-ric-gs-g2.png)
      
 1. If you see a pop-up **Stay Signed in?**, click **No**.
 
-   ![05](./Images/upfab-ric-gs-g3.png)
+   ![05](./media/upfab-ric-gs-g3.png)
 
 1. You will be navigated to the Power BI Home page.
 
-   ![05](./Images/fab-ric-gs-g4.png)
+   ![05](./media/fab-ric-gs-g4.png)
 
 ## Support Contact
 
@@ -133,6 +152,6 @@ Learner Support Contacts:
 
 Now, click on **Next** from the lower right corner to move on to the next page.
    
-   ![05](./Images/nextpage(1).png)
+   ![05](./media/nextpage(1).png)
 
 ## Happy Learning!!

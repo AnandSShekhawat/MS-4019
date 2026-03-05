@@ -1,6 +1,6 @@
 # Exercise 1: Analyze Survey Data Using the Analyst Agent
 
-### Estimated Duration: 30 Minutes
+### Estimated Duration: 20 Minutes
 
 ## Lab Overview
 
@@ -32,7 +32,7 @@ Your goal is to use the **Analyst agent** to uncover trends, identify strengths 
 
 In this task, you'll open Microsoft 365 Copilot, upload the Project Nexus survey dataset, and use the Analyst agent to analyze the data, identify trends, generate insights, and create visualizations.
 
-1. On the **LabVM** desktop, double-click the **M365-Copilot** icon.
+1. On the **labvm** desktop, double-click the **M365-Copilot** icon.
 
     ![](./media/ex1-p2t1p1.png)
 
