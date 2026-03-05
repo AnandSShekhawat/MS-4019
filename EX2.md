@@ -158,4 +158,6 @@ In this task, you'll use the Microsoft 365 Copilot Researcher agent to gather an
 
 In this exercise, you've uploaded the **Project Nexus** project files to OneDrive and used the Microsoft 365 Copilot **Researcher** agent to analyze communications and documents related to the project. You explored how the agent consolidates information from Outlook, Teams, meetings, and shared files to generate summaries, extract action items, and provide insights that support project decision-making.
 
-### You have successfully completed the hands-on lab!
+### You have successfully completed the Exercise. Click on Next >> to proceed with next Exercise.
+
+![](./media/nextpage.png)

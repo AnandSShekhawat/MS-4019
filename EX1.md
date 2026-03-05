@@ -152,5 +152,7 @@ In this task, you'll open Microsoft 365 Copilot, upload the Project Nexus survey
 
 In this exercise, you've used the Microsoft 365 Copilot Analyst agent to analyze the Project Nexus survey dataset. You uploaded the dataset, identified key trends, explored quantitative and qualitative insights, generated visualizations, and produced data-driven recommendations to better understand the outcomes of the Project Nexus initiative
 
+### You have successfully completed the Exercise. Click on Next >> to proceed with next Exercise.
 
+![](./media/nextpage.png)
 

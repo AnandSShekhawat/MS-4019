@@ -4,9 +4,7 @@
 
 ## Lab Overview
 
-In this exercise, you will build a **custom Microsoft 365 Copilot agent using Agent Builder** to support executive decision-making for **Project Nexus**. The agent will be configured from scratch and grounded in internal Project Nexus documents to provide contextual, data-driven responses.
-
-By defining the agent’s description, instructions, knowledge sources, and suggested prompts, you will create an intelligent assistant capable of analyzing adoption metrics, identifying risks, and generating strategic recommendations for enterprise rollout planning.
+In this exercise, you will build a **custom Microsoft 365 Copilot agent using Agent Builder** to support executive decision-making for **Project Nexus**. The agent will be configured from scratch and grounded in internal Project Nexus documents to provide contextual, data-driven responses. By defining the agent’s description, instructions, knowledge sources, and suggested prompts, you will create an intelligent assistant capable of analyzing adoption metrics, identifying risks, and generating strategic recommendations for enterprise rollout planning.
 
 You will also test the agent by submitting prompts and validating that the responses reference the uploaded Project Nexus documents to produce **structured, decision-focused insights for leadership**.
 
@@ -14,9 +12,9 @@ You will also test the agent by submitting prompts and validating that the respo
 
 In this exercise, you will complete the following tasks:
 
-- Task 1: Create and Configure the Agent
+- Task 1: Create and Configure the Custom Agent
 
-## Task 1: Create and Configure the Agent
+## Task 1: Create and Configure the Custom Agent
 
 In this task, you will create a **Project Nexus Governance Advisor** Copilot agent using Agent Builder. You will define its purpose, refine its instructions, configure knowledge sources using Project Nexus documents, and add suggested prompts to support executive decision-making scenarios. Finally, you will test the agent to ensure it generates structured insights and recommendations based on the provided organizational data.
 
@@ -174,4 +172,6 @@ In this task, you will create a **Project Nexus Governance Advisor** Copilot age
 In this exercise, you successfully created and configured a **custom Microsoft 365 Copilot agent** designed to support executive leadership in evaluating Project Nexus readiness for enterprise rollout.
 You defined the agent’s purpose, refined its instructions, and grounded it in **internal Project Nexus documents** to ensure responses are context-aware and relevant to business scenarios. You also configured suggested prompts and tested the agent to validate that it generates **structured, decision-focused insights based on organizational data**.
 
-### 
+### You have successfully completed the Exercise. Click on Next >> to proceed with next Exercise.
+
+![](./media/nextpage.png)

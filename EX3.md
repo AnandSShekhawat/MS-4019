@@ -130,4 +130,6 @@ In this task, you will install and use the Idea Coach agent to brainstorm strate
 
 In this exercise, you used multiple Microsoft 365 Copilot agents to support the next phase of Project Nexus. You leveraged the Writing Coach agent to generate executive recommendation reports, refine messaging to highlight ROI and business value, and create concise leadership communications. You then used the Idea Coach agent to brainstorm strategies that improve adoption across departments and outline a phased enterprise rollout plan. Through this process, you experienced how different Copilot agents can complement each other to turn insights into clear communication, strategic planning, and actionable recommendations for leadership.
 
-###
+### You have successfully completed the Exercise. Click on Next >> to proceed with next Exercise.
+
+![](./media/nextpage.png)
