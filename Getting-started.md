@@ -1,4 +1,4 @@
-# MS-4019 : Transform your everyday business processes with Agents
+# MS-4019 : Transform your everyday business processes with agents
 
 ### Overall Estimated Duration: 2 Hours
 
@@ -70,7 +70,7 @@ In this lab, the workflow demonstrates how **Microsoft 365 Copilot agents** can 
 
 ## Getting Started with the Lab
 
-Welcome to your MS-4019 : Transform your everyday business processes with Agents workshop! We've prepared a seamless environment for you to explore and learn Azure Services. Let's begin by making the most of this experience:
+Welcome to your MS-4019 : Transform your everyday business processes with agents workshop! We've prepared a seamless environment for you to explore and learn Azure Services. Let's begin by making the most of this experience:
 
 ## Accessing Your Lab Environment
 Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
