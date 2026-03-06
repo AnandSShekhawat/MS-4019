@@ -8,12 +8,6 @@ In this lab, you will use the **Microsoft 365 Copilot Analyst agent** to analyze
 
 You will upload a survey dataset, explore trends, calculate averages, generate charts, and produce a stakeholder-ready summary report. This lab demonstrates how AI can accelerate data analysis and transform raw survey responses into actionable insights.
 
-## Lab Objectives
-
-In this exercise, you will complete the following tasks:
-
-* Task 1: Upload the Dataset and Analyze Survey Results Using the Analyst Agent
-
 ## Lab Scenario
 
 You are tasked with analyzing survey results from **Project Nexus**, a six-week pilot program designed to improve cross-departmental collaboration using a new digital workspace platform.
@@ -27,6 +21,12 @@ The survey evaluates:
 * Open-ended participant feedback
 
 Your goal is to use the **Analyst agent** to uncover trends, identify strengths and weaknesses, and produce data-driven recommendations.
+
+## Lab Objectives
+
+In this exercise, you will complete the following tasks:
+
+- Task 1: Upload the Dataset and Analyze Survey Results Using the Analyst Agent
 
 ## Task 1: Upload the Dataset and Analyze Survey Results Using the Analyst Agent
 

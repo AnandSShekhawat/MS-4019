@@ -68,7 +68,7 @@ In this lab, the workflow demonstrates how **Microsoft 365 Copilot agents** can 
 
 - **SharePoint-Connected Copilot Agent:** A Copilot agent that uses SharePoint site content and documents as its knowledge source, enabling users to ask questions and retrieve insights directly from stored organizational content.
 
-# Getting Started with the Lab
+## Getting Started with the Lab
 
 Welcome to your MS-4019 : Transform your everyday business processes with Agents workshop! We've prepared a seamless environment for you to explore and learn Azure Services. Let's begin by making the most of this experience:
 
