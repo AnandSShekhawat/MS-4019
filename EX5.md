@@ -63,7 +63,7 @@ In this task, you will create a **SharePoint Communication site** that will act 
 
     ![](./media/ex5-p6t1p9.png)
 
-1. In the **Open** window, navigate to **C:\AllFiles\Project Nexus (1)**, select all the files in the folder **(2)**, and then click **Open (3)** to upload them.
+1. In the **Open** window, navigate to **C:\AllFiles\Project-Nexus (1)**, select all the files in the folder **(2)**, and then click **Open (3)** to upload them.
 
     ![](./media/ex5-p6t1p10.png)
 

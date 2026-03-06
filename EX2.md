@@ -36,7 +36,7 @@ In this task, you'll upload the Project Nexus folder from the local system to On
 
     ![](./media/ex2-p3t1p3.png)
 
-1. In the **Select folder to upload** window, navigate to **`C:\AllFiles` (1)**, select the **Project Nexus (2)** folder, and then click **Upload (3)**.
+1. In the **Select folder to upload** window, navigate to **`C:\AllFiles` (1)**, select the **Project-Nexus (2)** folder, and then click **Upload (3)**.
 
     ![](./media/ex2-p3t1p4.png)
 
@@ -44,7 +44,7 @@ In this task, you'll upload the Project Nexus folder from the local system to On
 
     ![](./media/ex2-p3t1p5.png)
 
-1. In **OneDrive**, select **My files (1)** from the left navigation pane and verify that the **Project Nexus (2)** folder has been successfully uploaded.
+1. In **OneDrive**, select **My files (1)** from the left navigation pane and verify that the **Project-Nexus (2)** folder has been successfully uploaded.
 
     ![](./media/ex2-p3t1p6.png)
 

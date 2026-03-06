@@ -92,7 +92,7 @@ In this task, you will create a **Project Nexus Governance Advisor** Copilot age
 
 6. In the **Knowledge** section, add relevant Project Nexus documents from OneDrive (Adoption Report, Risk Log, Executive Notes, Change Plan, etc.).
 
-1. In the **Open** window, navigate to `C:\AllFiles\Project Nexus` **(1)**, select all the files in the folder **(2)**, and then click **Open (3)** to upload them.
+1. In the **Open** window, navigate to `C:\AllFiles\Project-Nexus` **(1)**, select all the files in the folder **(2)**, and then click **Open (3)** to upload them.
 
     ![](./media/ex4-p5t1p12.png)
 

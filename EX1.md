@@ -48,7 +48,7 @@ In this task, you'll open Microsoft 365 Copilot, upload the Project Nexus survey
 
     ![](./media/ex1-p2t1p7.png)
 
-1. Navigate to `C:\AllFiles\Project Nexus` **(1)** and select **Project_Nexus_survey_results.xlsx (2)** and then click on **Open (3)**.
+1. Navigate to `C:\AllFiles\Project-Nexus` **(1)** and select **Project_Nexus_survey_results.xlsx (2)** and then click on **Open (3)**.
 
     ![](./media/ex1-p2t1p8.png)
 
